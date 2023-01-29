@@ -1,0 +1,43 @@
+.hobbies {
+    position: relative;
+    top: 14em;
+    min-height: 80vh;
+    margin-top: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hobbiesTitle {
+    color: #19c113;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.myHobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.hobbie {
+    background-color: rgb(37, 37, 37);
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.hobbieName {
+    color: #19c113;
+    cursor: pointer;
+}
+
+.hobbieDesc {
+    color: rgb(143, 138, 138);
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 276px){
+    .hobbies {
+        position: relative;
+        top: 40em;
+    }
+}

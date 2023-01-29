@@ -1,0 +1,28 @@
+.skills {
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skillsTitle {
+    color: #19c113;
+    text-align: center;
+}
+
+.skillIcons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    position: relative;
+    top: 7em;
+}
+
+#iconskill {
+    transition: all 0.7s;
+}
+
+#iconskill:hover {
+    transform: scale(1.2);
+}
