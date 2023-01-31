@@ -2,8 +2,9 @@ import React from "react";
 import './Hobbies.css';
 
 const Hobbies = () => {
+
     return (
-        <div className='hobbies'>
+        <div id="hobbies" className='hobbies'>
             <h1 className='hobbiesTitle'>/My hobbies</h1>
             <div className='myHobbies'>
                 <div className='hobbie'>
