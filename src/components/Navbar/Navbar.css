@@ -1,0 +1,24 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    height: 65px;
+    width: 100%; 
+    background-color: rgb(39, 39, 39);
+    color: #19c113;
+    /* padding-top: 15px; */
+}
+
+.navButtons {
+    padding-right: 20px;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
+    color: #19c113;
+}
+
+.navButton {
+    overflow: visible;
+}

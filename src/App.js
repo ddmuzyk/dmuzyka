@@ -1,10 +1,11 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React from 'react';
 import './App.css';
 import Introduction from './components/Introduction/Introduction';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Hobbies from './components/Hobbies/Hobbies';
 import Contact from './components/Contact/Contact';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
 
     return (
         <div className='components'>
+            <Navbar handleClick={handleClick}/>
             <Introduction handleClick={handleClick}/>
             <Skills/>
             <Works/>
