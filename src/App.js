@@ -21,7 +21,7 @@ const App = () => {
 
     const handleClick = (id) => {
         const element = document.getElementById(id);
-        element.scrollIntoView({behavior: "smooth", block: "center"});
+        element.scrollIntoView({behavior: "smooth", block: "end"});
     }
 
     return (
