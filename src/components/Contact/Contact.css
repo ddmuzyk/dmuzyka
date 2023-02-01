@@ -49,3 +49,9 @@
         top: 50em;
     }
 }
+
+@media screen and (max-width: 287px) {
+    .linkButtons {
+        padding-bottom: 1em;
+    }
+}
