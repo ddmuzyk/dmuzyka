@@ -26,3 +26,13 @@
 #iconskill:hover {
     transform: scale(1.2);
 }
+
+.iconName {
+    text-align: center;
+    color: #19c113;
+}
+
+#reactIcon {
+    padding-top: 8px;
+}
+

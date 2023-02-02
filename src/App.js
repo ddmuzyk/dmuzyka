@@ -1,4 +1,5 @@
 import React from 'react';
+import { scrollIntoView } from "seamless-scroll-polyfill";
 import './App.css';
 import Introduction from './components/Introduction/Introduction';
 import Skills from './components/Skills/Skills';
@@ -19,9 +20,13 @@ const App = () => {
 
     
 
+    // const handleClick = (id) => {
+    //     const element = document.getElementById(id);
+    //     element.scrollIntoView({behavior: "smooth", block: "end"});
+    // }
+
     const handleClick = (id) => {
-        const element = document.getElementById(id);
-        element.scrollIntoView({behavior: "smooth", block: "end"});
+        scrollIntoView(document.getElementById(id), {behavior: "smooth", block: "end"})
     }
 
     return (

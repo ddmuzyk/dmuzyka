@@ -14,8 +14,8 @@ const Contact = () => {
             </div>
             <div className="linkButtons">
                 <a href="https://github.com/ddmuzyk" className="linkButton">GITHUB</a>
-                <a className="linkButton">FACEBOOK</a>
-                <a className="linkButton">INSTAGRAM</a>
+                <a href="https://pl-pl.facebook.com/" className="linkButton">FACEBOOK</a>
+                <a href="https://www.instagram.com/" className="linkButton">INSTAGRAM</a>
             </div>
         </div>
     )
