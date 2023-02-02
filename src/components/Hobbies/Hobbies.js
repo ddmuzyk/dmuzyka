@@ -5,7 +5,7 @@ const Hobbies = () => {
 
     return (
         <div id="hobbies" className='hobbies'>
-            <h1 className='hobbiesTitle'>/My hobbies</h1>
+            <h1 className='hobbiesTitle'>My interests</h1>
             <div className='myHobbies'>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Programming</h2>
