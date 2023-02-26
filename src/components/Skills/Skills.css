@@ -2,6 +2,7 @@
     height: 500px;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .skillsTitle {
@@ -20,7 +21,7 @@
 }
 
 #iconskill {
-    transition: all 0.7s;
+    transition: all 0.2s;
 }
 
 #iconskill:hover {
@@ -36,3 +37,8 @@
     padding-top: 8px;
 }
 
+@media only screen and (max-width: 259px){
+  svg {
+      width: 40px;
+  }
+}

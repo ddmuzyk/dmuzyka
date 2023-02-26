@@ -41,3 +41,10 @@
         top: 40em;
     }
 }
+
+@media only screen and (max-width: 419px){
+  .hobbies {
+      position: relative;
+      top: 25em;
+  }
+}

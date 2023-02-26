@@ -1,5 +1,5 @@
 import React from 'react';
-import { scrollIntoView } from "seamless-scroll-polyfill";
+// import { scrollIntoView } from "seamless-scroll-polyfill";
 import './App.css';
 import Introduction from './components/Introduction/Introduction';
 import Skills from './components/Skills/Skills';
@@ -25,8 +25,30 @@ const App = () => {
     //     element.scrollIntoView({behavior: "smooth", block: "end"});
     // }
 
+    // const handleClick = (id) => {
+    //     scrollIntoView(document.getElementById(id), {behavior: "smooth", block: "end"})
+    // }
     const handleClick = (id) => {
-        scrollIntoView(document.getElementById(id), {behavior: "smooth", block: "end"})
+      const element = document.getElementById(id);
+      if (id === 'skills') {
+        const skillPosition = element.offsetTop -200;
+        window.scrollTo({
+          top: skillPosition,
+          behavior: 'smooth'
+        })
+      } else if ( id === 'introduction') {
+        const introPosition = element.offsetTop -500;
+        window.scrollTo({
+          top: introPosition,
+          behavior: 'smooth'
+        })
+      } else {
+        const scrollPosition = element.offsetTop - 150;
+        window.scrollTo({
+          top: scrollPosition,
+          behavior: 'smooth'
+        })
+      }
     }
 
     return (

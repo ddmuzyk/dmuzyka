@@ -4,7 +4,7 @@ import './Works.css';
 const Works = () => {
     return (
         <div id='works' className='works'>
-            <h1 className='worksTitle'>My projects</h1>
+            <h1 id='worksTitle' className='worksTitle'>My projects</h1>
             <div className='projects'>
                 <div className='project'>
                     <a href='https://chuckveryfunny.onrender.com/' className='projectName'>Chuck Norris Joke Generator</a>

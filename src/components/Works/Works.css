@@ -5,6 +5,7 @@
     margin-top: 1em;
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 3em;
 }
 
 .worksTitle {
@@ -46,6 +47,13 @@
 @media only screen and (max-width: 276px){
     .works {
         position: relative;
-        top: 45em;
+        top: 35em;
     }
+}
+
+@media only screen and (max-width: 419px){
+  .works {
+      position: relative;
+      top: 25em;
+  }
 }
