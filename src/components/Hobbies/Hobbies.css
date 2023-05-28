@@ -1,7 +1,7 @@
 .hobbies {
-    position: relative;
-    top: 14em;
-    min-height: 80vh;
+    /* position: relative;
+    top: 14em; */
+    height: fit-content;
     margin-top: 10em;
     margin-left: 10%;
     margin-right: 10%;

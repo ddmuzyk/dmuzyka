@@ -1,5 +1,6 @@
 .skills {
-    height: 500px;
+    min-height: 500px;
+    height: fit-content;
     margin-left: 10%;
     margin-right: 10%;
     

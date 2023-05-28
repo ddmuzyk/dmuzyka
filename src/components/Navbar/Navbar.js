@@ -28,11 +28,11 @@ const Navbar = ({handleClick}) => {
     return (
         <div className="navbar">
             <div className="navButtons">
-                <button onClick={() => handleClick("introduction")} id="navButton">ABOUT</button>
-                <button onClick={() => handleClick("skills")} id="navButton">SKILLS</button>
-                <button onClick={() => handleClick("works")} id="navButton">RECENT WORKS</button>
-                <button onClick={() => handleClick("hobbies")} id="navButton">INTERESTS</button>
-                <button onClick={() => handleClick("contact")} id="navButton">CONTACTS</button>
+                <button className="nav-button" onClick={() => handleClick("introduction")} id="navButton">ABOUT</button>
+                <button className="nav-button" onClick={() => handleClick("skills")} id="navButton">SKILLS</button>
+                <button className="nav-button" onClick={() => handleClick("works")} id="navButton">RECENT WORKS</button>
+                <button className="nav-button" onClick={() => handleClick("hobbies")} id="navButton">INTERESTS</button>
+                <button className="nav-button" onClick={() => handleClick("contact")} id="navButton">CONTACTS</button>
             </div>
             <div className='dropdown-menu' ref={menuRef}>
                 <button onClick={() => setOpen(!open)} id="menu">MENU</button>
