@@ -26,6 +26,7 @@
     background-color: transparent;
     color: #19c113;
     cursor: pointer;
+    user-select: none;
 }
 
 #navButton:hover {
@@ -67,11 +68,22 @@
 #menu {
     position: absolute;
     top: -42px;
+    right: 10px;
+}
+
+.dropbtn {
+  font-family: Source Code Pro, sans-serif;
+    font-size: 16px;
+    color: #19c113;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
 }
 
 .dropdown-menu {
     position: absolute;
-    right: 20px;
+    right: 5px;
     display: flex;
     justify-content: flex-end;
     width: fit-content;

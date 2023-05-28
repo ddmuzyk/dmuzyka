@@ -35,8 +35,8 @@ const Navbar = ({handleClick}) => {
                 <button className="nav-button" onClick={() => handleClick("contact")} id="navButton">CONTACTS</button>
             </div>
             <div className='dropdown-menu' ref={menuRef}>
-                <button onClick={() => setOpen(!open)} id="menu">MENU</button>
-                <div className={`dropdown-content ${open? 'active' : 'inactive'}`} id="dropdown-content">
+                <button className="dropbtn" onClick={() => setOpen(!open)} id="menu">MENU</button>
+                <div className={`dropdown-content ${open ? 'active' : 'inactive'}`} id="dropdown-content">
                     <button className="dropbtn" onClick={() => handleClick("introduction")}>ABOUT</button>
                     <button className="dropbtn" onClick={() => handleClick("skills")}>SKILLS</button>
                     <button className="dropbtn" onClick={() => handleClick("works")}>RECENT WORKS</button>

@@ -1,8 +1,9 @@
 .skills {
-    min-height: 650px;
+    min-height: 550px;
     height: fit-content;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
 }
 
 .skillsTitle {
@@ -22,6 +23,7 @@
 
 #iconskill {
     transition: all 0.2s;
+    height: fit-content;
 }
 
 #iconskill:hover {
@@ -31,10 +33,17 @@
 .iconName {
     text-align: center;
     color: #19c113;
+    margin-bottom: 0;
 }
 
 #reactIcon {
     padding-top: 8px;
+}
+
+@media screen and (max-width: 656px) {
+  svg {
+    width: 60px;
+  }
 }
 
 @media only screen and (max-width: 259px){
