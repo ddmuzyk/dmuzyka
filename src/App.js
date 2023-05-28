@@ -28,6 +28,8 @@ const App = () => {
     // const handleClick = (id) => {
     //     scrollIntoView(document.getElementById(id), {behavior: "smooth", block: "end"})
     // }
+
+    // Scroll function
     const handleClick = (id) => {
       const element = document.getElementById(id);
       if (id === 'skills') {

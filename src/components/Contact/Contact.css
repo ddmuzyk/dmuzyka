@@ -49,12 +49,12 @@
     /* background-color: rgb(47, 53, 51); */
 }
 
-@media only screen and (max-width: 276px){
+/* @media only screen and (max-width: 276px){
     .contact {
         position: relative;
         top: 30em;
     }
-}
+} */
 
 @media screen and (max-width: 287px) {
     .linkButtons {
