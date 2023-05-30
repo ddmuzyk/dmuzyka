@@ -11,13 +11,15 @@
 .worksTitle {
     color: #19c113;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .projects {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 3em;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* .project {

@@ -9,7 +9,7 @@ const Works = () => {
             <h1 id='worksTitle' className='worksTitle'>My projects</h1>
             <div className='projects'>
               {projects.map((project) => {
-                return <Project key={project} 
+                return <Project key={project.title} 
                 title={project.title} 
                 description={project.description}
                 img={project.img}

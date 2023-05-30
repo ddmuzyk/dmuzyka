@@ -36,7 +36,7 @@
 }
 
 .hobbieDesc {
-    color: rgb(143, 138, 138);
+    color: var(--desc-color);
     margin-top: 2em;
 }
 

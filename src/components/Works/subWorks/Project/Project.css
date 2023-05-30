@@ -23,6 +23,8 @@
 
 .project-description {
   color: var(--desc-color);
+  margin-bottom: 50px;
+  margin-top:  30px;
 }
 
 .project-btns-container {
