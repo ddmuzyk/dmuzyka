@@ -7,8 +7,8 @@
 }
 
 .skillsTitle {
-    color: #19c113;
-    text-align: center;
+  color: var(--green-font);
+  text-align: center;
 }
 
 .skillIcons {
@@ -32,7 +32,7 @@
 
 .iconName {
     text-align: center;
-    color: #19c113;
+    color: var(--green-font);
     margin-bottom: 0;
 }
 

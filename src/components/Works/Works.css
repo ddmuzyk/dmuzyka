@@ -20,16 +20,16 @@
     gap: 3em;
 }
 
-.project {
+/* .project {
     background-color: rgb(37, 37, 37);
     padding: 2em;
     border-radius: 20px;
     transition: all 0.3s;
-}
+} */
 
-.project:hover {
+/* .project:hover {
   box-shadow: 0px 0px 24px -7px #6BCCAA;
-}
+} */
 
 .projectName {
     color: #19c113;

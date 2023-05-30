@@ -1,11 +1,12 @@
 import React from "react";
 import './Project.css';
 
-const Project = ({title, description}) => {
+const Project = ({title, description, img}) => {
   return (
     <div className="project">
-      <h2 className="projectName">{title}</h2>
-      <p className="projectDesc">{description}</p>
+      <img src={img} alt="Project Img" className="project-img"></img>
+      <h2 className="project-title">{title}</h2>
+      <p className="project-description">{description}</p>
     </div>
   )
 }

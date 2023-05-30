@@ -11,7 +11,9 @@ const Works = () => {
               {projects.map((project) => {
                 return <Project key={project} 
                 title={project.title} 
-                description={project.description}/>
+                description={project.description}
+                img={project.img}
+                />
               })}
                 {/* <div className='project'>
                     <a href='https://chuckveryfunny.onrender.com/' className='projectName'>Chuck Norris Joke Generator</a>
