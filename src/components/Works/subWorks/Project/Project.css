@@ -1,10 +1,15 @@
 .project {
-  max-width: 400px;
+  max-width: 500px;
   background-color: var(--component-background);
   padding: 2em;
   border-radius: 20px;
   transition: all 0.3s;
   /* cursor: pointer; */
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .project:hover {
@@ -20,6 +25,34 @@
   color: var(--desc-color);
 }
 
-.project-img {
+.project-btns-container {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-btn {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  color: var(--green-font);
+  background-color: rgb(31, 24, 24);
+  padding: 4px 20px;
+  cursor: pointer;
+  user-select: none;
+  font-family: Source Code Pro;
+  transition: all 0.15s;
+  text-decoration: none;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.747);
+}
+
+.project-btn:hover {
+  color: var(--btn-hover);
+  background-color: #080e0b;
+}
+
+.project-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 0 0 black;
 }

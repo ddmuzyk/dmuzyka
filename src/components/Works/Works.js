@@ -13,6 +13,8 @@ const Works = () => {
                 title={project.title} 
                 description={project.description}
                 img={project.img}
+                live={project.live}
+                code={project.code}
                 />
               })}
                 {/* <div className='project'>
