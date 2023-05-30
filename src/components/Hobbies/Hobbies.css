@@ -1,14 +1,14 @@
 .hobbies {
-    position: relative;
-    top: 14em;
-    min-height: 80vh;
+    /* position: relative;
+    top: 14em; */
+    height: fit-content;
     margin-top: 10em;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .hobbiesTitle {
-    color: #19c113;
+    color: var(--green-font);
     text-align: center;
     margin-bottom: 2em;
 }
@@ -20,7 +20,7 @@
 }
 
 .hobbie {
-    background-color: rgb(37, 37, 37);
+    background-color: var(--component-background);
     padding: 2em;
     border-radius: 20px;
     transition: all 0.3s;
@@ -31,16 +31,16 @@
 }
 
 .hobbieName {
-    color: #19c113;
-    cursor: pointer;
+  color: var(--green-font);
+  cursor: pointer;
 }
 
 .hobbieDesc {
-    color: rgb(143, 138, 138);
+    color: var(--desc-color);
     margin-top: 2em;
 }
 
-@media only screen and (max-width: 276px){
+/* @media only screen and (max-width: 276px){
     .hobbies {
         position: relative;
         top: 40em;
@@ -52,4 +52,4 @@
       position: relative;
       top: 25em;
   }
-}
+} */
