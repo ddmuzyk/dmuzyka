@@ -32,7 +32,6 @@
 
 .hobbieName {
   color: var(--green-font);
-  cursor: pointer;
 }
 
 .hobbieDesc {
