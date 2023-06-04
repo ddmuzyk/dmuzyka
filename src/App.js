@@ -45,7 +45,7 @@ const App = () => {
           behavior: 'smooth'
         })
       } else {
-        const scrollPosition = element.offsetTop - 150;
+        const scrollPosition = element.offsetTop - 100;
         window.scrollTo({
           top: scrollPosition,
           behavior: 'smooth'
