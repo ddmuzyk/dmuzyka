@@ -45,7 +45,7 @@
 }
 
 .linkButton:hover {
-    color: #22c8ce;
+    color: var(--btn-hover)
     /* background-color: rgb(47, 53, 51); */
 }
 
