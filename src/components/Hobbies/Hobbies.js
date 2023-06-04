@@ -9,15 +9,15 @@ const Hobbies = () => {
             <div className='myHobbies'>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Programming</h2>
-                    <p className='hobbieDesc'>That's an obvious but also a most important one! I love programming and learning new technologies, especially those connected to front-end web development.</p>
+                    <p className='hobbieDesc'>I'm passionate about programming and devoted to continuous learning, particularly in the dynamic realm of front-end web development. Embracing new technologies and staying abreast of industry advancements are core aspects of my professional journey. I thrive on the challenges and creativity that programming offers, and I am driven to craft exceptional user experiences through innovative code.</p>
                 </div>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Chess</h2>
-                    <p className='hobbieDesc'>My favorite game that doesn't need a sequel. I even used to be a proffesional chess player when I was younger, now I play it for pure entertainment.</p>
+                    <p className='hobbieDesc'>As an avid chess enthusiast, I find great joy in this game of strategic thinking and analytical prowess. Having honed my skills as a professional chess player in my younger years, I now engage in chess purely for its intellectual stimulation and sheer enjoyment. Exploring the intricacies of the game and participating in online matches continue to be a rewarding and cherished aspect of my life.</p>
                 </div>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Music</h2>
-                    <p className='hobbieDesc'>Apart from enjoying numerous genres, I'm also into electronic music production for which I'm using FL Studio.</p>
+                    <p className='hobbieDesc'>I have a profound appreciation for various genres of music, and I am actively engaged in the art of electronic music production using FL Studio. Exploring the intricacies of sound and rhythm fuels my creative expression, allowing me to craft immersive and captivating musical compositions.</p>
                 </div>
             </div>
         </div>
