@@ -1,6 +1,6 @@
 .introContainer {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     flex-wrap: wrap;
     min-height: 100vh;
     /* align-items: center; */
@@ -18,10 +18,10 @@
     /* max-width: calc(100% + 24px); */
     /* gap: 10px; */
     margin-left: 10%;
-    /* margin-right: 30%; */
+    margin-right: 10%;
     margin-top: 20vh;
     /* flex-wrap: wrap; */
-    min-height: 100vh;
+    height: fit-content;
     max-width: 600px;
     overflow-wrap: normal;
 }
@@ -46,7 +46,7 @@
     color: white;
     padding-top: 3px;
     padding-bottom: 7px;
-    /* text-align:left; */
+    /* text-align: justify; */
 }
 
 .buttons {
@@ -69,6 +69,12 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+  .myDescription {
+    font-size: var(--p-font-size);
+  }
+}
+
 @media only screen and (max-width: 370px) {
     .myName {
         font-size: 4.5rem;
@@ -77,4 +83,5 @@
     .myTitle {
         font-size: 20px;
     }
+    
 }
