@@ -1,9 +1,9 @@
 .skills {
     min-height: 550px;
-    height: fit-content;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 100px;
+    height: fit-content;
     margin-top: 100px;
 }
 

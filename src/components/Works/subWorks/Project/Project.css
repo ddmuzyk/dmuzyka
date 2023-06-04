@@ -28,6 +28,7 @@
   color: var(--desc-color);
   margin-bottom: 50px;
   margin-top:  30px;
+  text-align: justify;
 }
 
 .project-btns-container {
@@ -61,4 +62,10 @@
 .project-btn:active {
   transform: translateY(2px);
   box-shadow: 0 0 0 0 black;
+}
+
+@media screen and (max-width: 550px) {
+  .project-description {
+    font-size: var(--p-font-size);
+  }
 }

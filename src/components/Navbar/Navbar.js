@@ -29,7 +29,7 @@ const Navbar = ({handleClick}) => {
         <div className="navbar">
             <div className="navButtons">
                 <button className="nav-button" onClick={() => handleClick("introduction")} id="navButton">ABOUT</button>
-                <button className="nav-button" onClick={() => handleClick("skills")} id="navButton">TECHNOLOGIES</button>
+                <button className="nav-button" onClick={() => handleClick("skills")} id="navButton">SKILLS</button>
                 <button className="nav-button" onClick={() => handleClick("works")} id="navButton">RECENT WORKS</button>
                 <button className="nav-button" onClick={() => handleClick("hobbies")} id="navButton">INTERESTS</button>
                 <button className="nav-button" onClick={() => handleClick("contact")} id="navButton">CONTACTS</button>
@@ -38,7 +38,7 @@ const Navbar = ({handleClick}) => {
                 <button className="dropbtn" onClick={() => setOpen(!open)} id="menu">MENU</button>
                 <div className={`dropdown-content ${open ? 'active' : 'inactive'}`} id="dropdown-content">
                     <button className="dropbtn" onClick={() => handleClick("introduction")}>ABOUT</button>
-                    <button className="dropbtn" onClick={() => handleClick("skills")}>TECHNOLOGIES</button>
+                    <button className="dropbtn" onClick={() => handleClick("skills")}>SKILLS</button>
                     <button className="dropbtn" onClick={() => handleClick("works")}>RECENT WORKS</button>
                     <button className="dropbtn" onClick={() => handleClick("hobbies")}>INTERESTS</button>
                     <button className="dropbtn" onClick={() => handleClick("contact")}>CONTACTS</button>

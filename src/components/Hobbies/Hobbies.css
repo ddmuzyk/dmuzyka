@@ -52,3 +52,9 @@
       top: 25em;
   }
 } */
+
+@media screen and (max-width: 550px) {
+  .hobbieDesc {
+    font-size: var(--p-font-size);
+  }
+}
