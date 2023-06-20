@@ -25,6 +25,11 @@
 #iconskill {
     transition: all 0.2s;
     height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #iconskill:hover {
