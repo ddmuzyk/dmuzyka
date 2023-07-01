@@ -6,7 +6,7 @@ import TypeScriptLogo from "./svgs/TypeScript";
 
 const Skills = () => {
   return (
-      <div id="skills" className="skills">
+      <section id="skills" className="skills">
           <h1 className="skillsTitle">Skills</h1>
           <div className="skillIcons">
               <div id="iconskill">
@@ -64,7 +64,7 @@ const Skills = () => {
                 <TypeScriptLogo/>
               </div>
           </div>
-      </div>
+      </section>
   )
 }
 

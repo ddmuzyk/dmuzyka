@@ -54,14 +54,14 @@ const App = () => {
     }
 
     return (
-        <div className='components'>
+        <main className='components'>
             <Navbar handleClick={handleClick}/>
             <Introduction handleClick={handleClick}/>
             <Skills/>
             <Works/>
             <Hobbies/>
             <Contact/>
-        </div>
+        </main>
     )
 }
 
