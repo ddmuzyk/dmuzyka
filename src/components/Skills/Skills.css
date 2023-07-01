@@ -10,6 +10,7 @@
 .skillsTitle {
   color: var(--green-font);
   text-align: center;
+  font-size: 2em;
 }
 
 .skillIcons {
