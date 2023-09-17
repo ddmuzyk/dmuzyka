@@ -8,7 +8,7 @@ const Project = ({title, description, img, live, code}) => {
       <h2 className="project-title">{title}</h2>
       <p className="project-description">{description}</p>
       <div className="project-btns-container">
-        <a href={live} target="_blank" rel="noreferrer" className="project-btn">Live</a>
+        {live ? <a href={live} target="_blank" rel="noreferrer" className="project-btn">Live</a> : null}
         <a href={code} target="_blank" rel="noreferrer" className="project-btn">Code</a>
       </div>
     </div>
