@@ -121,7 +121,7 @@
 }
 
 .dropdown-content button:hover {
-    color: #0fd1c1;
+    color: var(--btn-hover);
 }
 
 /* .show {
