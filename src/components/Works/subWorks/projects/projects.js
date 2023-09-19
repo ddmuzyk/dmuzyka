@@ -6,7 +6,7 @@ import casino from '../../../../imgs/casino.png';
 const projects = [
   {
     title: 'Casino-online',
-    description: 'My biggest project to date (still in progress), meant to enable users to train their abilities in various bet games without risking real money. Texas Hold\'em Poker, the part I\'m currently working on, is going to be single player game against symbolic AI.',
+    description: 'My biggest project to date (still in progress), meant to enable users to train their abilities in various bet games without risking real money. Texas Hold\'em Poker, the part I\'m currently working on, is going to be a single player game against symbolic AI.',
     img: casino,
     live: null,
     code: 'https://github.com/ddmuzyk/casino-online',
