@@ -1,6 +1,7 @@
 import React from "react";
 import './Skills.css';
 import TypeScriptLogo from "./svgs/TypeScript";
+import PythonLogo from "./svgs/Python";
 // import svg from './js.svg';
 // import {ReactComponent as Happy} from './happy';
 
@@ -62,6 +63,9 @@ const Skills = () => {
               </div>
               <div id="iconskill">
                 <TypeScriptLogo/>
+              </div>
+              <div id="iconskill">
+                <PythonLogo/>
               </div>
           </div>
       </section>
