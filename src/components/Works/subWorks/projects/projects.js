@@ -2,6 +2,7 @@ import pokesearch from '../../../../imgs/pokesearch.png' ;
 import spock from '../../../../imgs/spock-rock.png';
 import punkbeers from '../../../../imgs/punkbeers.png';
 import casino from '../../../../imgs/casino.png';
+import layoutask from '../../../../imgs/layoutask.png';
 
 const projects = [
   {
@@ -32,6 +33,13 @@ const projects = [
     live: 'https://ddmuzyk.github.io/spock-rock-papers-scissors-lizard/',
     code: 'https://github.com/ddmuzyk/spock-rock-papers-scissors-lizard'
   },
+  {
+    title: 'Layoutask',
+    description: 'Responsive website layout made with HTML, CSS and some vanilla JavaScript. My task here was to fully recreate the Figma layout provided by the company.',
+    img: layoutask,
+    live: 'https://layoutask.onrender.com/',
+    code: 'https://github.com/ddmuzyk/Layout'
+  }
 ]
 
 export default projects;

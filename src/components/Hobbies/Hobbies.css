@@ -37,6 +37,7 @@
 .hobbieDesc {
     color: var(--desc-color);
     margin-top: 2em;
+    text-align: justify;
 }
 
 /* @media only screen and (max-width: 276px){

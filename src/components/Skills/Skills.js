@@ -1,7 +1,7 @@
 import React from "react";
 import './Skills.css';
-import TypeScriptLogo from "./svgs/TypeScript";
-import PythonLogo from "./svgs/Python";
+import TypeScriptLogo from "./svgs/TypeScript/TypeScript";
+import PythonLogo from "./svgs/Python/Python";
 // import svg from './js.svg';
 // import {ReactComponent as Happy} from './happy';
 
