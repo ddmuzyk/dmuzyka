@@ -15,6 +15,7 @@ const Works = () => {
                 img={project.img}
                 live={project.live}
                 code={project.code}
+                hover_color={project.hover_color}
                 />
               })}
                 {/* <div className='project'>

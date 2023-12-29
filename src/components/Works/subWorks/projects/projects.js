@@ -11,34 +11,39 @@ const projects = [
     img: casino,
     live: null,
     code: 'https://github.com/ddmuzyk/casino-online',
+    hover_color: '#6BCCAA'
   },
   {
     title: 'PokeSearch',
     description: 'Inspired by Google Search website that allows users to find information about characters from the famous Pokemon series. By integrating the site with localStorage, users can add those characters to favorites which are saved locally in their browsers.',
     img: pokesearch,
     live: 'https://pokesearch-pgoy.onrender.com/',
-    code: 'https://github.com/ddmuzyk/PokeSearch'
+    code: 'https://github.com/ddmuzyk/PokeSearch',
+    hover_color: 'yellow'
   },
   {
     title: 'PunkBeers',
     description: 'React Router based application to enable beer research from API data. It was made as a homework assignment for an interview process. ',
     img: punkbeers,
     live: 'https://punkbeers.onrender.com/',
-    code: 'https://github.com/ddmuzyk/punkbeers'
+    code: 'https://github.com/ddmuzyk/punkbeers',
+    hover_color: 'rgb(255, 148, 237)',
   },
   {
     title: 'Spock-Rock Game',
     description: 'A turn based mini game that allows user to combat with AI enemy. The one who riches 10 points first - wins.',
     img: spock,
     live: 'https://ddmuzyk.github.io/spock-rock-papers-scissors-lizard/',
-    code: 'https://github.com/ddmuzyk/spock-rock-papers-scissors-lizard'
+    code: 'https://github.com/ddmuzyk/spock-rock-papers-scissors-lizard',
+    hover_color: 'white'
   },
   {
     title: 'Layoutask',
     description: 'Responsive website layout made with HTML, CSS and some vanilla JavaScript. My task here was to fully recreate the Figma layout provided by the company.',
     img: layoutask,
     live: 'https://layoutask.onrender.com/',
-    code: 'https://github.com/ddmuzyk/Layout'
+    code: 'https://github.com/ddmuzyk/Layout',
+    hover_color: 'aqua'
   }
 ]
 
