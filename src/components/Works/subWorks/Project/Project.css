@@ -15,8 +15,13 @@
   border-radius: 10px;
 }
 
-.project:hover {
+/* .project:hover {
   box-shadow: 0px 0px 24px -7px #6BCCAA;
+} */
+
+.someColors {
+  color: rgb(255, 148, 237);
+  color: aqua;
 }
 
 .project-title {
