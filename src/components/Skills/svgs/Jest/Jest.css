@@ -1,0 +1,16 @@
+.skill-img {
+  width: 80px;
+}
+
+@media only screen and (max-width: 656px) {
+
+  .skill-img {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 259px){
+  .skill-img {
+      width: 40px;
+  }
+}
