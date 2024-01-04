@@ -9,7 +9,7 @@ const Hobbies = () => {
             <div className='myHobbies'>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Programming</h2>
-                    <p className='hobbieDesc'>I'm passionate about programming and devoted to continuous learning, particularly in the dynamic realm of front-end web development. Embracing new technologies and staying abreast of industry advancements are core aspects of my professional journey. I thrive on the challenges and creativity that programming offers, and I am driven to craft exceptional user experiences through innovative code.</p>
+                    <p className='hobbieDesc'>It probably goes without saying. I thrive on the challenges and creativity that programming offers, and I believe that it changed the way I think even outside the coding editor.</p>
                 </div>
                 <div className='hobbie'>
                     <h2 className='hobbieName'>Chess</h2>
