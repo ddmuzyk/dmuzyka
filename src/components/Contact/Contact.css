@@ -23,6 +23,12 @@
     color: white;
 }
 
+.email {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
 .linkButtons {
     color: #19c113;
     display: flex;
