@@ -29,22 +29,22 @@ const projects = [
     code: 'https://github.com/ddmuzyk/punkbeers',
     hover_color: 'rgb(255, 148, 237)',
   },
-  {
-    title: 'Spock-Rock Game',
-    description: 'A turn based mini game that allows user to combat with AI enemy. The one who riches 10 points first - wins.',
-    img: spock,
-    live: 'https://ddmuzyk.github.io/spock-rock-papers-scissors-lizard/',
-    code: 'https://github.com/ddmuzyk/spock-rock-papers-scissors-lizard',
-    hover_color: 'white'
-  },
-  {
-    title: 'Layoutask',
-    description: 'Responsive website layout made with HTML, CSS and some vanilla JavaScript. My task here was to fully recreate the Figma layout provided by the company.',
-    img: layoutask,
-    live: 'https://layoutask.onrender.com/',
-    code: 'https://github.com/ddmuzyk/Layout',
-    hover_color: 'aqua'
-  }
+  // {
+  //   title: 'Spock-Rock Game',
+  //   description: 'A turn based mini game that allows user to combat with AI enemy. The one who riches 10 points first - wins.',
+  //   img: spock,
+  //   live: 'https://ddmuzyk.github.io/spock-rock-papers-scissors-lizard/',
+  //   code: 'https://github.com/ddmuzyk/spock-rock-papers-scissors-lizard',
+  //   hover_color: 'white'
+  // },
+  // {
+  //   title: 'Layoutask',
+  //   description: 'Responsive website layout made with HTML, CSS and some vanilla JavaScript. My task here was to fully recreate the Figma layout provided by the company.',
+  //   img: layoutask,
+  //   live: 'https://layoutask.onrender.com/',
+  //   code: 'https://github.com/ddmuzyk/Layout',
+  //   hover_color: 'aqua'
+  // }
 ]
 
 export default projects;
