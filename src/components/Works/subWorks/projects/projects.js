@@ -23,9 +23,9 @@ const projects = [
   },
   {
     title: 'PunkBeers',
-    description: 'React Router based application to enable beer research from API data. It was made as a homework assignment for an interview process. ',
+    description: 'React Router based application to enable beer research from API data. It was made as a homework assignment for an interview process. (Update 25.03.2024) - there are currently some issues with the API, so the app can be temporarily unavailable.',
     img: punkbeers,
-    live: 'https://punkbeers.onrender.com/',
+    live: null,
     code: 'https://github.com/ddmuzyk/punkbeers',
     hover_color: 'rgb(255, 148, 237)',
   },
