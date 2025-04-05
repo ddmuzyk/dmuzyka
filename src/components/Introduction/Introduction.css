@@ -1,0 +1,87 @@
+.introContainer {
+  /* display: flex; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  min-height: 100vh;
+  /* align-items: center; */
+  color: #19c113;
+  width: 100%;
+  /* padding: 12px; */
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-bottom: 100px; */
+  margin-top: 65px;
+}
+
+.intro {
+  box-sizing: border-box;
+  /* max-width: calc(100% + 24px); */
+  /* gap: 10px; */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20vh;
+  /* flex-wrap: wrap; */
+  height: fit-content;
+  max-width: 600px;
+  overflow-wrap: normal;
+}
+
+
+
+.myName {
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 5rem;
+  letter-spacing: -.015625em;
+  max-width: 100px;
+  margin: 0 0 20px 0;
+}
+
+.myTitle {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.myDescription {
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 7px;
+  text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px; 
+  /* padding-top: 15px; */
+}
+
+#buttonScroll {
+  /* padding: 3px 10px 0px 0px; */
+  /* padding-right: 10px; */
+  width: fit-content;
+}
+
+@media only screen and (max-width: 700px) {
+  .myName {
+      font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+.myDescription {
+  font-size: var(--p-font-size);
+}
+}
+
+@media only screen and (max-width: 370px) {
+  .myName {
+      font-size: 4.5rem;
+      /* line-height: 3rem; */
+  }
+  .myTitle {
+      font-size: 20px;
+  }
+  
+}

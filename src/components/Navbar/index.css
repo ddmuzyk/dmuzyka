@@ -1,0 +1,137 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  height: 65px;
+  width: 100%; 
+  background-color: rgb(39, 39, 39);
+  color: #19c113;
+}
+
+.navButtons {
+  padding-right: 20px;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: visible;
+  color: #19c113;
+}
+
+#navButton {
+  font-size: 15px;
+  font-family: Source Code Pro;
+  border: none;
+  background-color: transparent;
+  color: #19c113;
+  cursor: pointer;
+  user-select: none;
+}
+
+#navButton:hover {
+  color: #12cebe;
+}
+
+
+
+@media only screen  and (max-width: 944px) {
+  #navButton {
+      font-size: 12px;
+  }
+  .navButtons {
+      gap: 15px;
+  }
+}
+
+@media screen  and (max-width: 700px) {
+  #navButton {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  #menu {
+      display: none;
+  }
+}
+
+
+
+/* @media screen and (max-width: 578px) {
+  #menu {
+      display: block;
+      color: #19c113;
+  }
+} */
+
+#menu {
+  position: absolute;
+  top: -42px;
+  right: 10px;
+}
+
+.dropbtn {
+font-family: Source Code Pro, sans-serif;
+  font-size: 16px;
+  color: #19c113;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  /* transition: all 1s; */
+}
+
+.dropdown-content.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+
+.dropdown-content.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+.dropdown-content {
+  display: block;
+  background-color: #24212193;
+  backdrop-filter: blur(7px);
+  padding: 8px;
+  min-width: 160px;
+  /* box-shadow: -2px 6px 20px -4px rgba(36, 118, 133, 0.788); */
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.dropdown-content button {
+  color: #19c113;
+  display: block;
+}
+
+.dropdown-content button:hover {
+  color: var(--btn-hover);
+}
+
+/* .show {
+  display: block;
+  transition: all 1s;
+  transform: translateY(1em);
+} */
+
+/* @media screen and (min-width: 579px) {
+  .show {
+      display: none;
+  }
+} */
+
