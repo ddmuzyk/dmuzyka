@@ -1,5 +1,5 @@
-import { useState } from "react";
 import './Project.css';
+import { useState } from "react";
 import { ProjectProps } from "../projects";
 
 const Project = ({title, description, img, live, code, hover_color}: ProjectProps) => {

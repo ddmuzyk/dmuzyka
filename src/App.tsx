@@ -1,12 +1,30 @@
 import './App.css';
 import { useRef } from 'react';
-import Introduction from './components/Introduction/Introduction';
+import { Introduction } from './components/Introduction';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Hobbies from './components/Hobbies/Hobbies';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar';
 import { Sections } from './types';
+import styled from 'styled-components';
+import { breakpoints, navBarHeight } from './contants';
+
+const S = {
+  Main: styled.main`
+    display: flex;
+    padding-top: ${navBarHeight}px;
+    padding-inline: 50px;
+    flex-direction: column;
+    gap: 100px;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+    @media screen and (max-width: ${breakpoints.mobile}px) {
+      padding-inline: 25px;
+    }
+  `,
+};
 
 const App = () => {
     const introductionRef = useRef<HTMLDivElement>(null);
@@ -38,8 +56,9 @@ const App = () => {
     }
 
     return (
-        <main>
-            <Navbar handleClick={handleClick}/>
+      <>
+        <Navbar handleClick={handleClick}/>
+        <S.Main>
             <section ref={introductionRef}>
               <Introduction />
             </section>
@@ -55,7 +74,8 @@ const App = () => {
             <section ref={contactRef}>
               <Contact />
             </section>
-        </main>
+        </S.Main>      
+      </>
     )
 }
 
