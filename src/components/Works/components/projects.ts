@@ -1,13 +1,21 @@
-import pokesearch from '../../../../imgs/pokesearch.png' ;
-import punkbeers from '../../../../imgs/punkbeers.png';
-import casino from '../../../../imgs/casino.png';
+import pokesearch from 'src/assets/imgs/pokesearch.png';
+import punkbeers from 'src/assets/imgs/punkbeers.png';
+import casino from 'src/assets/imgs/casino.png';
 
-const projects = [
+export type ProjectProps = {
+  title: string,
+  description: string,
+  img: string,
+  code: string,
+  hover_color: string
+  live?: string,
+}
+
+export const projects: ProjectProps[] = [
   {
     title: 'Casino-online',
     description: 'My biggest project to date (still in progress), meant to enable users to train their abilities in various bet games without risking real money. Texas Hold\'em Poker, the part I\'m currently working on, is going to be a single player game against symbolic AI.',
     img: casino,
-    live: null,
     code: 'https://github.com/ddmuzyk/casino-online',
     hover_color: '#6BCCAA'
   },
@@ -23,10 +31,7 @@ const projects = [
     title: 'PunkBeers',
     description: 'React Router based application to enable beer research from API data. It was made as a homework assignment for an interview process. (Update 07.05.2024) - the Punk API unfortunately has been shut down, so the app is no longer working. I\'m planning to replace it with another API in the future.',
     img: punkbeers,
-    live: null,
     code: 'https://github.com/ddmuzyk/punkbeers',
     hover_color: 'rgb(255, 148, 237)',
   },
 ]
-
-export default projects;

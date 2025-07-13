@@ -1,64 +1,60 @@
 import './App.css';
+import { useRef } from 'react';
 import Introduction from './components/Introduction/Introduction';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Hobbies from './components/Hobbies/Hobbies';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar';
+import { Sections } from './types';
 
 const App = () => {
+    const introductionRef = useRef<HTMLDivElement>(null);
+    const skillsRef = useRef<HTMLDivElement>(null);
+    const worksRef = useRef<HTMLDivElement>(null);
+    const hobbiesRef = useRef<HTMLDivElement>(null);
+    const contactRef = useRef<HTMLDivElement>(null);
 
-    // const handleClick = () => {
-    //     scrollToref.current.scrollIntoView({
-    //         behavior: 'smooth',
-    //         block: "nearest",
-    //         inline: "start"
-    //         });
-    // };
-
-    
-
-    // const handleClick = (id) => {
-    //     const element = document.getElementById(id);
-    //     element.scrollIntoView({behavior: "smooth", block: "end"});
-    // }
-
-    // const handleClick = (id) => {
-    //     scrollIntoView(document.getElementById(id), {behavior: "smooth", block: "end"})
-    // }
-
-    // Scroll function
-    const handleClick = (id) => {
-      const element = document.getElementById(id);
-      if (id === 'skills') {
-        const skillPosition = element.offsetTop -200;
-        window.scrollTo({
-          top: skillPosition,
-          behavior: 'smooth'
-        })
-      } else if ( id === 'introduction') {
-        const introPosition = element.offsetTop -500;
-        window.scrollTo({
-          top: introPosition,
-          behavior: 'smooth'
-        })
-      } else {
-        const scrollPosition = element.offsetTop - 100;
-        window.scrollTo({
-          top: scrollPosition,
-          behavior: 'smooth'
-        })
+    const handleClick = (section: Sections) => {
+      switch (section) {
+        case Sections.INTRODUCTION:
+          introductionRef.current?.scrollIntoView({ behavior: 'smooth' });
+          break;
+        case Sections.SKILLS:
+          skillsRef.current?.scrollIntoView({ behavior: 'smooth' });
+          break;
+        case Sections.WORKS:
+          worksRef.current?.scrollIntoView({ behavior: 'smooth' });
+          break;
+        case Sections.HOBBIES:
+          hobbiesRef.current?.scrollIntoView({ behavior: 'smooth' });
+          break;
+        case Sections.CONTACT:
+          contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+          break;
+        default:
+          break;
       }
     }
 
     return (
-        <main className='components'>
+        <main>
             <Navbar handleClick={handleClick}/>
-            <Introduction/>
-            <Skills/>
-            <Works/>
-            <Hobbies/>
-            <Contact/>
+            <section ref={introductionRef}>
+              <Introduction />
+            </section>
+            <section ref={skillsRef}>
+              <Skills />
+            </section>
+            <section ref={worksRef}>
+              <Works />
+            </section>
+            <section ref={hobbiesRef}>
+              <Hobbies />
+            </section>
+            <section ref={contactRef}>
+              <Contact />
+            </section>
         </main>
     )
 }

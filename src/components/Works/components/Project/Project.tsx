@@ -1,8 +1,8 @@
-import {useState} from "react";
+import { useState } from "react";
 import './Project.css';
+import { ProjectProps } from "../projects";
 
-const Project = ({title, description, img, live, code, hover_color}) => {
-
+const Project = ({title, description, img, live, code, hover_color}: ProjectProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -15,9 +15,9 @@ const Project = ({title, description, img, live, code, hover_color}) => {
 
   return (
     <div className="project"
-    onMouseEnter={handleMouseEnter}
-    onMouseLeave={handleMouseLeave}
-    style={{boxShadow: isHovered ? `0px 0px 24px -7px ${hover_color}` : undefined}}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      style={{boxShadow: isHovered ? `0px 0px 24px -7px ${hover_color}` : undefined}}
     >
       <img src={img} alt="Project Img" className="project-img"></img>
       <h2 className="project-title">{title}</h2>

@@ -6,9 +6,10 @@
   --p-font-size: 14px;
 }
 
-.components {
+main {
   display: flex;
   flex-direction: column;
+  gap: 100px;
   height: 100%;
   -webkit-tap-highlight-color: transparent;
 }
