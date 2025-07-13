@@ -1,15 +1,8 @@
 import pokesearch from 'src/assets/imgs/pokesearch.png';
 import punkbeers from 'src/assets/imgs/punkbeers.png';
 import casino from 'src/assets/imgs/casino.png';
+import { ProjectProps } from '../../../types';
 
-export type ProjectProps = {
-  title: string,
-  description: string,
-  img: string,
-  code: string,
-  hover_color: string
-  live?: string,
-}
 
 export const projects: ProjectProps[] = [
   {
