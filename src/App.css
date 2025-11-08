@@ -5,10 +5,3 @@
   --btn-hover: #43c6cf;
   --p-font-size: 14px;
 }
-
-.components {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  -webkit-tap-highlight-color: transparent;
-}
