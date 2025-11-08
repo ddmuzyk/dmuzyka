@@ -5,8 +5,11 @@ import { messages } from './messages';
 
 const S = {
   IntroWrapper: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: ${colors.green};
-    margin-top: 110px;
+    height: 75vh;
     margin-left: 30px;
     max-width: 600px;
 

@@ -1,6 +1,6 @@
 import './Project.css';
 import { useState } from "react";
-import { ProjectProps } from "../projects";
+import { ProjectProps } from '../../../../types';
 
 const Project = ({title, description, img, live, code, hover_color}: ProjectProps) => {
   const [isHovered, setIsHovered] = useState(false);

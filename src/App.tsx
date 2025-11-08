@@ -1,20 +1,20 @@
+import styled from 'styled-components';
 import './App.css';
 import { useRef } from 'react';
 import { Introduction } from './components/Introduction';
-import Skills from './components/Skills/Skills';
+import { Skills } from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Hobbies from './components/Hobbies/Hobbies';
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar';
 import { Sections } from './types';
-import styled from 'styled-components';
 import { breakpoints, navBarHeight } from './contants';
 
 const S = {
   Main: styled.main`
     display: flex;
     padding-top: ${navBarHeight}px;
-    padding-inline: 50px;
+    padding-inline: 100px;
     flex-direction: column;
     gap: 100px;
     height: 100%;
